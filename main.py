@@ -24,5 +24,12 @@ plt.plot(x4, y4, c='k', marker='>')
 x5 = [0, 0]
 y5 = [0, 30]
 plt.plot(x5, y5, c='k', marker='^')
-
+x = [0, 0, 14, 19]
+y = [0, 17, 17, 13]
+plt.fill_between(x, y, color='peachpuff')
+plt.arrow(0, 0, 4, 5, color='peru', shape='full',width=0.3, head_width=1)
+xL = [-5, 0, 5]
+yL = [4, 0, -4]
+plt.plot(xL, yL, c='k', linewidth=0.5)
+plt.savefig('График.png', dpi=300)
 plt.show()
