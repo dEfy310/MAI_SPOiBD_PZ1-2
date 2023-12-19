@@ -14,7 +14,10 @@ x2 = [19, 19]
 y2 = [0, 17]
 plt.scatter(x2, y2, c='indianred')
 plt.plot(x2, y2, c='indianred')
-
+x3 = [0, 19]
+y3 = [17, 17]
+plt.scatter(x3, y3, c='indianred')
+plt.plot(x3, y3, c='indianred')
 
 
 
