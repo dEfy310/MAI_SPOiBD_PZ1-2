@@ -18,7 +18,9 @@ x3 = [0, 19]
 y3 = [17, 17]
 plt.scatter(x3, y3, c='indianred')
 plt.plot(x3, y3, c='indianred')
-
+x4 = [0, 40]
+y4 = [0, 0]
+plt.plot(x4, y4, c='k', marker='>')
 
 
 plt.show()
