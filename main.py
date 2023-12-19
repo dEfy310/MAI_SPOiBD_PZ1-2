@@ -21,6 +21,8 @@ plt.plot(x3, y3, c='indianred')
 x4 = [0, 40]
 y4 = [0, 0]
 plt.plot(x4, y4, c='k', marker='>')
-
+x5 = [0, 0]
+y5 = [0, 30]
+plt.plot(x5, y5, c='k', marker='^')
 
 plt.show()
