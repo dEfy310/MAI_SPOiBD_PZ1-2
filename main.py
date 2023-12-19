@@ -10,7 +10,10 @@ plt.title('Графическое решение задачи линейного
 plt.scatter(x1, y1, c='k')
 plt.plot(x1, y1, c='k')
 plt.grid()
-
+x2 = [19, 19]
+y2 = [0, 17]
+plt.scatter(x2, y2, c='indianred')
+plt.plot(x2, y2, c='indianred')
 
 
 
