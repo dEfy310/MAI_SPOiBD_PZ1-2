@@ -30,6 +30,6 @@ plt.fill_between(x, y, color='peachpuff')
 plt.arrow(0, 0, 4, 5, color='peru', shape='full',width=0.3, head_width=1)
 xL = [-5, 0, 5]
 yL = [4, 0, -4]
-
+plt.plot(xL, yL, c='k', linewidth=0.5)
 
 plt.show()
