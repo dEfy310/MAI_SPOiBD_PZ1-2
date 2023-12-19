@@ -24,5 +24,7 @@ plt.plot(x4, y4, c='k', marker='>')
 x5 = [0, 0]
 y5 = [0, 30]
 plt.plot(x5, y5, c='k', marker='^')
-
+x = [0, 0, 14, 19]
+y = [0, 17, 17, 13]
+plt.fill_between(x, y, color='peachpuff')
 plt.show()
